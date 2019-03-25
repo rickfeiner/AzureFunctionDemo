@@ -6,7 +6,7 @@ module.exports = async function (context, req) {
             // status: 200, /* Defaults to 200 */
             // Testing CI/CD
             //Test 2!
-            body: "Hello " + (req.query.name || req.body.name)
+            body: "Hello. You're very handsome, " + (req.query.name || req.body.name)
         };
     }
     else {
